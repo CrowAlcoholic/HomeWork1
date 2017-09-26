@@ -4,6 +4,7 @@
 int main()
 {
     int s = 0;
+    std::cout << "Var.#5" << std::endl;
     std::cout << "Task #8" << std::endl << "Enter a three-digit number" << std::endl;
     int k = 0;
     std::cin >> k;
