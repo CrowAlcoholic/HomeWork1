@@ -4,13 +4,10 @@ include_directories(SYSTEM
     ./
 )
 
-ADD_DEFINITIONS(
-    -std=c++11
+# enum your files
+add_executable(executabl
+    HomeWork1.cpp
 )
 
-# enum your files
-add_executable(executable
-	HomeWork1.cpp
-)
 
 target_link_libraries(executable)
