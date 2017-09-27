@@ -12,8 +12,8 @@ int main()
     int n100 = (k - n1 - n10);
     std::cout << n100 + n10 / 10 + n1 * 10 << std::endl;
     /////////////////////////////////////////////////////////////////////////////////////
-    int d = 564;
     std::cout << "Task #17" << std::endl;
+    int d = 564;
     std::cout << "Answer: X = "  << (d - d % 10) / 10 + (d % 10) * 100 << std::endl;
     return 0;
 }
